@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 桌面上显示的应用名称，想改成"禁漫"等直接改这里 -->
+    <string name="app_name">JMComic2</string>
+
+    <!-- 线路选择页（按 jm 截图还原，繁体字） -->
+    <string name="jm_web_error">Error loading page\n菜波制作\nDomain: undefined\nError Code: -6\nDescription:\nnet::ERR_CONNECTION_CLOSED</string>
+    <string name="jm_choose_line">請選擇線路</string>
+    <string name="jm_line_tip">* 如果不能連接或不能載圖，請嘗試切換線路</string>
+    <string name="jm_line_loading">線路讀取中...</string>
+    <string name="jm_line_1">線路1</string>
+    <string name="jm_line_2">線路2</string>
+    <string name="jm_line_3">線路3</string>
+    <string name="jm_line_4">線路4</string>
+    <string name="jm_line_ok">順暢</string>
+</resources>

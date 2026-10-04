@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 启动页主题：保持原深色配色不变，页面本身为纯白布局 -->
+    <style name="Theme.JmPrank" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">#1B1B22</item>
+        <item name="android:navigationBarColor">#1B1B22</item>
+        <item name="android:windowBackground">#1B1B22</item>
+    </style>
+
+    <!-- 线路选择页主题：状态栏与页面同为灰色，浑然一体 -->
+    <style name="Theme.JmPrank.Line">
+        <item name="android:statusBarColor">@color/jm_page_bg</item>
+        <item name="android:navigationBarColor">@color/jm_page_bg</item>
+        <item name="android:windowBackground">@color/jm_page_bg</item>
+    </style>
+
+    <!-- 线路按钮（胶囊容器） -->
+    <style name="JmLineButton">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- "線路N"文字 -->
+    <style name="JmLineText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/jm_orange</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <!-- 高亮按钮里的"線路N"（白色） -->
+    <style name="JmLineText.White">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 绿色小圆点 -->
+    <style name="JmLineDot">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:background">@drawable/bg_green_dot</item>
+    </style>
+
+    <!-- "順暢"文字 -->
+    <style name="JmLineOk">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/jm_line_ok</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

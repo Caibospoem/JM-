@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 线路选择页：1:1 还原 jm 启动时的"請選擇線路"界面
+     同一页面内：先显示"線路讀取中..."转圈，读取完成后原地切换出线路按钮（无翻页动画） -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jm_page_bg"
+    android:orientation="vertical">
+
+    <!-- 顶部白块：模仿 jm 内嵌公告 WebView（截图里是加载失败的样子） -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="64dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:paddingStart="14dp"
+            android:paddingTop="30dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="30dp"
+            android:text="@string/jm_web_error"
+            android:textColor="@color/jm_error_text"
+            android:textSize="15sp" />
+
+        <!-- 白框右缘的橙色小竖条（jm 的 WebView 滚动条痕迹，读取完成后消失）；
+             觉得多余就删掉这个 View -->
+        <View
+            android:id="@+id/web_scroll_hint"
+            android:layout_width="7dp"
+            android:layout_height="44dp"
+            android:layout_gravity="end|top"
+            android:layout_marginEnd="5dp"
+            android:background="@color/jm_orange" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/jm_choose_line"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/jm_line_tip"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <!-- ====== 加载状态：转圈 + 線路讀取中...（读取完成后隐藏） ====== -->
+    <LinearLayout
+        android:id="@+id/loading_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:indeterminateTint="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/jm_line_loading"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- ====== 读取完成：四个线路按钮（初始隐藏，原地显示） ====== -->
+    <LinearLayout
+        android:id="@+id/buttons_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- 線路1：橙色描边 -->
+        <LinearLayout
+            android:id="@+id/btn_line1"
+            style="@style/JmLineButton"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/bg_line_outline">
+
+            <TextView
+                style="@style/JmLineText"
+                android:text="@string/jm_line_1" />
+
+            <View style="@style/JmLineDot" />
+
+            <TextView style="@style/JmLineOk" />
+        </LinearLayout>
+
+        <!-- 線路2：橙色描边 -->
+        <LinearLayout
+            android:id="@+id/btn_line2"
+            style="@style/JmLineButton"
+            android:background="@drawable/bg_line_outline">
+
+            <TextView
+                style="@style/JmLineText"
+                android:text="@string/jm_line_2" />
+
+            <View style="@style/JmLineDot" />
+
+            <TextView style="@style/JmLineOk" />
+        </LinearLayout>
+
+        <!-- 線路3：橙色填充（截图里高亮的那个） -->
+        <LinearLayout
+            android:id="@+id/btn_line3"
+            style="@style/JmLineButton"
+            android:background="@drawable/bg_line_filled">
+
+            <TextView
+                style="@style/JmLineText.White"
+                android:text="@string/jm_line_3" />
+
+            <View style="@style/JmLineDot" />
+
+            <TextView style="@style/JmLineOk" />
+        </LinearLayout>
+
+        <!-- 線路4：橙色描边 -->
+        <LinearLayout
+            android:id="@+id/btn_line4"
+            style="@style/JmLineButton"
+            android:background="@drawable/bg_line_outline">
+
+            <TextView
+                style="@style/JmLineText"
+                android:text="@string/jm_line_4" />
+
+            <View style="@style/JmLineDot" />
+
+            <TextView style="@style/JmLineOk" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

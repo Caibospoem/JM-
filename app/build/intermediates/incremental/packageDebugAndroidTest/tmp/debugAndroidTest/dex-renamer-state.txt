@@ -1,0 +1,4 @@
+#Sun Oct 04 23:23:30 CST 2026
+base.0=E\:\\project\\JmPrank\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

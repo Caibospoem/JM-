@@ -1,0 +1,4 @@
+com.prank.jm.test.app-androidTest-0 E:\project\JmPrank\app\build\generated\res\resValues\androidTest\debug
+com.prank.jm.test.app-mergeDebugAndroidTestResources-1 E:\project\JmPrank\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.prank.jm.test.app-mergeDebugAndroidTestResources-2 E:\project\JmPrank\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.prank.jm.test.app-debugAndroidTest-3 E:\project\JmPrank\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

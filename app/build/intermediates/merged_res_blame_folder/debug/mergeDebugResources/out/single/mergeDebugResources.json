@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxhdpi_jmcomic3.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxhdpi/jmcomic3.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxhdpi_jmcomic3_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxhdpi/jmcomic3_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxhdpi_jmcomic3_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxhdpi/jmcomic3_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxxhdpi_jmcomic3_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxxhdpi/jmcomic3_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/drawable_jmcomic3_background.xml.flat",
+        "source": "com.prank.jm.app-main-25:/drawable/jmcomic3_background.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-hdpi_jmcomic3.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-hdpi/jmcomic3.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-hdpi_jmcomic3_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-hdpi/jmcomic3_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxxhdpi_jmcomic3.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxxhdpi/jmcomic3.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-mdpi_jmcomic3_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-mdpi/jmcomic3_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xhdpi_jmcomic3.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xhdpi/jmcomic3.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/drawable_bg_line_outline.xml.flat",
+        "source": "com.prank.jm.app-main-25:/drawable/bg_line_outline.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/layout_activity_line_select.xml.flat",
+        "source": "com.prank.jm.app-main-25:/layout/activity_line_select.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxxhdpi_jmcomic3_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxxhdpi/jmcomic3_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-anydpi-v26_jmcomic3_round.xml.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-anydpi-v26/jmcomic3_round.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/drawable_bg_line_filled.xml.flat",
+        "source": "com.prank.jm.app-main-25:/drawable/bg_line_filled.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-anydpi-v26_jmcomic3.xml.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-anydpi-v26/jmcomic3.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-mdpi_jmcomic3.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-mdpi/jmcomic3.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-hdpi_jmcomic3_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-hdpi/jmcomic3_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/layout_activity_main.xml.flat",
+        "source": "com.prank.jm.app-main-25:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/drawable_bg_line_button.xml.flat",
+        "source": "com.prank.jm.app-main-25:/drawable/bg_line_button.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xhdpi_jmcomic3_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xhdpi/jmcomic3_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/layout_activity_line_loading.xml.flat",
+        "source": "com.prank.jm.app-main-25:/layout/activity_line_loading.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/drawable_bg_green_dot.xml.flat",
+        "source": "com.prank.jm.app-main-25:/drawable/bg_green_dot.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-mdpi_jmcomic3_foreground.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-mdpi/jmcomic3_foreground.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.prank.jm.app-main-25:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.prank.jm.app-debug-23:/mipmap-xhdpi_jmcomic3_round.webp.flat",
+        "source": "com.prank.jm.app-main-25:/mipmap-xhdpi/jmcomic3_round.webp"
+    }
+]
